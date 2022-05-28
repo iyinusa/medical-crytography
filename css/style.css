@@ -1,0 +1,42 @@
+body {
+  background-image: url('../images/bg.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: 50px auto;
+  border: 5px solid #999;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.title {
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 5px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.title2 {
+  font-weight: bold;
+  background: rgba(230, 230, 230, 0.5);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: 3px solid #999;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+fieldset legend {
+  background: rgba(230, 230, 230, 0.5);
+  border: 3px solid #999;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
